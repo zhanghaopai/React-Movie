@@ -3,7 +3,7 @@ import {React} from 'react'
 
 export default function HomeScreen() {
   return (
-    <View>
+    <View className="mt-10">
         <Text>HomeScreen</Text>
     </View>
   )
