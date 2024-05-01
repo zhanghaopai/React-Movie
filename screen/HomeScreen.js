@@ -1,10 +1,11 @@
 import {View, Text} from 'react-native'
 import {React} from 'react'
+import ScreenWrapper from '../components/screenWrapper'
 
 export default function HomeScreen() {
   return (
-    <View className="mt-10">
-        <Text>HomeScreen</Text>
-    </View>
+    <ScreenWrapper>
+      <Text>HomeScreen</Text>
+    </ScreenWrapper>
   )
 }
